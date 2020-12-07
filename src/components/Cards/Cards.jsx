@@ -3,8 +3,7 @@ import { Card, CardContent, Typography, Grid, StylesProvider } from '@material-u
 
 import styles from './Cards.module.css';
 
-const Cards = (props) => {
-  console.log(props);
+const Cards = ({ confirmed, recovered, deaths, lastUpdate }) => {
   return(
     <div className={styles.container}>
       <Grid container spacing={3} justify="center">
