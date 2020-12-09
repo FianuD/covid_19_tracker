@@ -12,8 +12,6 @@ const Chart = () => {
       setDailyData(await fetchDailyData());
     }
 
-    console.log(dailyData);
-
     fetchAPI();
   }, []);
 
@@ -22,7 +20,7 @@ const Chart = () => {
     ? (
     <Line 
       data={{
-        labels: '',
+        labels: dailyData(({ date }) => date),
         datasets: [{}, {}],
       }}
     />) : null
