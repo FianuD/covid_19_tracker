@@ -3,7 +3,13 @@ import { NativeSelect, FormControl } from '@material-ui/core';
 
 const CountryPicker = () => {
   return(
-    <h1>Country Picker</h1>
+    <FormControl>
+      <NativeSelect>
+        <option value="global">Global</option>
+        <option value="global">Global</option>
+        <option value="global">Global</option>
+      </NativeSelect>
+    </FormControl>
   )
 }
 
