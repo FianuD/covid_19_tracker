@@ -11,7 +11,7 @@ export const fetchData = async () => {
 
     return { confirmed, recovered, deaths, lastUpdate };
   } catch (error) {
-
+    console.log(error);
   }
 }
 
@@ -27,7 +27,16 @@ export const fetchDailyData  = async () => {
     }));
 
     return modifiedData;
-  } catch {
+  } catch (error) {
+    console.log(error);
+  }
+}
 
+// Fetching data function for countries for country picker functionality
+export const countries = async () => {
+  try {
+
+  } catch (error) {
+    console.log(error);
   }
 }
