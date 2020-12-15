@@ -1,6 +1,6 @@
 # COVID-19 Tracker React Practice Project
 
-![COVID-19 Tracker]()
+![COVID-19 Tracker](https://github.com/FianuD/covid_19_tracker/blob/master/src/images/screenshot.jpeg)
 
 ## Introduction
 
@@ -12,7 +12,7 @@ The purpose of the project was to gain an understanding of React's workflow and 
 
 ### API Used
 
-https://covid19.mathdro.id/api
+- https://covid19.mathdro.id/api
 
 ### Setup
 
