@@ -12,6 +12,8 @@ class App extends React.Component {
     country: "",
   };
 
+  // Make request to fetch data in the API to return only data we need
+  // Setting data to the state
   async componentDidMount() {
     const fetchedData = await fetchData();
 
